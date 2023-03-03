@@ -6,11 +6,13 @@ The purpose of the analysis is to help create a binary classifier to predict whe
 
 Data Preprocessing
 * What variable(s) are considered the target(s) for your model?
-There is one target variable for the model: "IS_SUCCESSFUL". 
+
+    There is one target variable for the model: "IS_SUCCESSFUL". 
 
 ![Alt text](Pictures/1.PNG)
 * What variable(s) are considered to be the features for your model?
-The following variables are considered as the features:
+
+    The following variables are considered as the features:
 APPLICATION_TYPE, 
 AFFILIATION, 
 CLASSIFICATION, 
@@ -23,7 +25,8 @@ and ASK_AMT.
 
 ![Alt text](Pictures/2.PNG)
 * What variable(s) are neither targets nor features, and should be removed from the input data?
-The variables of EIN and NAME should be removed.  
+
+    The variables of EIN and NAME should be removed.  
 ![Alt text](Pictures/3.PNG)
 
 Compiling, Training, and Evaluating the Model
@@ -45,5 +48,5 @@ Compiling, Training, and Evaluating the Model
 ![Alt text](Pictures/7.PNG)
 ## Summary
 
-Overall, we tested several different neural network structures and the best performance of the deep learning model is 55.38%. We also added code to save the model's weights every 5 epochs and saved the results to an HDF5 file. Recommendation: The model seems not good enough for this dataset. Learning different models,activaiton funcsitons and data cleaning could increase the accuracy percentage. 
+Overall, we tested several different neural network structures and the best performance of the deep learning model was 55.38%. We also added code to save the model's weights every 5 epochs and saved the results to an HDF5 file. Recommendation: The model seems not good enough for this dataset. Learning different models, activaiton functions and data cleaning could increase the accuracy percentage. 
 
