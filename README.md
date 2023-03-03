@@ -29,20 +29,21 @@ The variables of EIN and NAME should be removed.
 Compiling, Training, and Evaluating the Model
 * How many neurons, layers, and activation functions did you select for your neural network model, and why? 
 
-Two hidden layers were selected. The first layer has 80 neurons and the second layer has 30 neurons. I used activation function Relu for the two hidden layers, and activation function Sigmoid for Output. 
+    Two hidden layers were selected. The first layer has 80 neurons and the second layer has 30 neurons. I used activation function Relu for the two hidden layers, and activation function Sigmoid for Output. We selected these numbers and settings because we started from simple structure and widely used activation functions. 
 
 ![Alt text](Pictures/4.png)
 
 * Were you able to achieve the target model performance?
-The target model performance was not achieved. The accuracy was 
 
+    The target model performance was not achieved. The accuracy was 55.38%. 
+![Alt text](Pictures/5.png)
 * What steps did you take to try and increase model performance?
 
+    We made three attempts: 1. We added another layer; 2.We increaed the number of neurons for each hidden layer; 3.we changed the activation function. In the end, we obtained the result, which was 52.92%. 
 
+![Alt text](Pictures/6.PNG)
+![Alt text](Pictures/7.PNG)
 ## Summary
-Summary: 
-Summarize the overall results of the deep learning model. 
 
-Recommendation: 
-for how a different model could solve this classification problem, and explain your recommendation. 
+Overall, we tested several different neural network structures and the best performance of the deep learning model is 55.38%. We also added code to save the model's weights every 5 epochs and saved the results to an HDF5 file. Recommendation: The model seems not good enough for this dataset. Learning different models,activaiton funcsitons and data cleaning could increase the accuracy percentage. 
 
